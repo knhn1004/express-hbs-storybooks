@@ -1,0 +1,71 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+At	models/Story.js	/^  createdAt: {$/;"	c
+At	models/User.js	/^  createdAt: {$/;"	c
+Auth	middleware/auth.js	/^  ensureAuth: function (req, res, next) {$/;"	c
+Connected	config/db.js	/^    console.log(`MongoDB Connected: ${conn.connection.host}`)$/;"	c
+DB	app.js	/^const connectDB = require('.\/config\/db')$/;"	c
+DB	config/db.js	/^const connectDB = async () => {$/;"	c
+Date	helpers/hbs.js	/^  formatDate: function (date, format) {$/;"	c
+GoogleStrategy	config/passport.js	/^const GoogleStrategy = require('passport-google-oauth20').Strategy$/;"	c
+Guest	middleware/auth.js	/^  ensureGuest: function (req, res, next) {$/;"	c
+Icon	helpers/hbs.js	/^  editIcon: function (storyUser, loggedUser, storyId, floating = true) {$/;"	c
+Id	models/User.js	/^  googleId: {$/;"	c
+MongoStore	app.js	/^const MongoStore = require('connect-mongo')(session)$/;"	c
+Name	models/User.js	/^  displayName: {$/;"	c
+Name	models/User.js	/^  firstName: {$/;"	c
+Name	models/User.js	/^  lastName: {$/;"	c
+Override	app.js	/^const methodOverride = require('method-override')$/;"	c
+Story	routes/index.js	/^const Story = require('..\/models\/Story')$/;"	c
+Story	routes/stories.js	/^const Story = require('..\/models\/Story')$/;"	c
+Tags	helpers/hbs.js	/^  stripTags: function (input) {$/;"	c
+User	config/passport.js	/^        const newUser = {$/;"	c
+User	config/passport.js	/^const User = require('..\/models\/User')$/;"	c
+body	models/Story.js	/^  body: {$/;"	o
+catch	config/db.js	/^  } catch (e) {$/;"	f
+catch	config/passport.js	/^        } catch (err) {$/;"	f
+catch	routes/index.js	/^  } catch (e) {$/;"	f
+catch	routes/stories.js	/^  } catch (e) {$/;"	f
+catch	routes/stories.js	/^  } catch (err) {$/;"	f
+createdAt	models/Story.js	/^  createdAt: {$/;"	o
+createdAt	models/User.js	/^  createdAt: {$/;"	o
+displayName	models/User.js	/^  displayName: {$/;"	o
+editIcon	helpers/hbs.js	/^  editIcon: function (storyUser, loggedUser, storyId, floating = true) {$/;"	m
+ensureAuth	middleware/auth.js	/^  ensureAuth: function (req, res, next) {$/;"	m
+ensureGuest	middleware/auth.js	/^  ensureGuest: function (req, res, next) {$/;"	m
+exports	config/passport.js	/^module.exports = function (passport) {$/;"	f
+exports	helpers/hbs.js	/^module.exports = {$/;"	o
+exports	middleware/auth.js	/^module.exports = {$/;"	o
+firstName	models/User.js	/^  firstName: {$/;"	o
+formatDate	helpers/hbs.js	/^  formatDate: function (date, format) {$/;"	m
+function	config/passport.js	/^module.exports = function (passport) {$/;"	f
+function	helpers/hbs.js	/^  editIcon: function (storyUser, loggedUser, storyId, floating = true) {$/;"	f
+function	helpers/hbs.js	/^  formatDate: function (date, format) {$/;"	f
+function	helpers/hbs.js	/^  select: function (selected, options) {$/;"	f
+function	helpers/hbs.js	/^  stripTags: function (input) {$/;"	f
+function	helpers/hbs.js	/^  truncate: function (str, len) {$/;"	f
+function	middleware/auth.js	/^  ensureAuth: function (req, res, next) {$/;"	f
+function	middleware/auth.js	/^  ensureGuest: function (req, res, next) {$/;"	f
+googleId	models/User.js	/^  googleId: {$/;"	o
+helpers	app.js	/^    helpers: { formatDate, stripTags, truncate, editIcon, select },$/;"	o
+if	app.js	/^    if (req.body && typeof req.body === 'object' && '_method' in req.body) {$/;"	f
+if	app.js	/^if (process.env.NODE_ENV === 'development') {$/;"	f
+if	config/passport.js	/^          if (user) {$/;"	f
+if	helpers/hbs.js	/^      if (floating) {$/;"	f
+if	helpers/hbs.js	/^    if (str.length > len && str.length > 0) {$/;"	f
+if	routes/stories.js	/^    if (!story) {$/;"	f
+if	routes/stories.js	/^    if (story.user != req.user.id) {$/;"	f
+image	models/User.js	/^  image: {$/;"	o
+lastName	models/User.js	/^  lastName: {$/;"	o
+methodOverride	app.js	/^  methodOverride(function (req, res) {$/;"	f
+select	helpers/hbs.js	/^  select: function (selected, options) {$/;"	m
+status	models/Story.js	/^  status: {$/;"	o
+stripTags	helpers/hbs.js	/^  stripTags: function (input) {$/;"	m
+title	models/Story.js	/^  title: {$/;"	o
+truncate	helpers/hbs.js	/^  truncate: function (str, len) {$/;"	m
+use	app.js	/^app.use(function (req, res, next) {$/;"	f
+user	models/Story.js	/^  user: {$/;"	o
